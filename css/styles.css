@@ -40,8 +40,8 @@ header{
     height: 100vh;
     border-top: none;
     margin-top: 0;
-     background-color: #000; 
-    /* background-image: url("[earth.jpg"); */
+    background-color: #000; 
+    background-image: url("../img/earth.jpg");
     
     
 
