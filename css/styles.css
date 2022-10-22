@@ -42,17 +42,31 @@ header{
     background-size: cover;
 }
 
+.div-inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .div-inside-face{
 
     background-color: #fff;
-    height: 250px;
-    width: 200px;
+    height: 320px;
+    width: 250px;
     border-radius: 10%;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: 4.9em;
+    margin-top: 75px;
+    display: grid;
+    justify-content: center;
+    color: #000;
 }
 
+.article-img{
+    height: 220px;
+    width: 220px;
+    border-radius: 10%;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(11, 11, 11, 0.64);
 
+}
 
 
 .nav-list li,.explore {
@@ -109,4 +123,15 @@ header{
 .next-to-beyond{
     text-align: center;
     color: rgb(203, 203, 203);
+}
+
+.article-title {
+    font-family: 'Secular One', sans-serif;
+    display: grid;
+    font-size: 1.2rem;
+    padding-top: 12px;
+}
+
+.article-blog-title {
+    color: grey;
 }
