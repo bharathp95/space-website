@@ -67,7 +67,7 @@ header{
 .article-img{
     height: 220px;
     width: 220px;
-    border-radius: 10%;
+    border-radius: 20px;
     margin-top: 15px;
     box-shadow: 0px 0px 10px 5px rgba(11, 11, 11, 0.64);
 
