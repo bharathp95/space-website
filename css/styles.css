@@ -39,7 +39,21 @@ header{
     margin-top: 0;
     background-color: #000; 
     background-image: url("../img/earth.jpg");
+    background-size: cover;
 }
+
+.div-inside-face{
+
+    background-color: #fff;
+    height: 250px;
+    width: 200px;
+    border-radius: 10%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+
 
 .nav-list li,.explore {
     display: inline-block;
