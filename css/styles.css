@@ -39,6 +39,7 @@ header{
     margin-top: 0;
     background-color: #000; 
     background-image: url("../img/earth.jpg");
+    background-size: cover;
 }
 
 .nav-list li,.explore {
