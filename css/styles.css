@@ -138,9 +138,13 @@ header {
     border-radius: 20px;
     margin-top: 15px;
     box-shadow: 0px 0px 10px 5px rgba(11, 11, 11, 0.64);
+    
 
 }
-
+.article-img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 .article-title {
     font-family: 'Secular One', sans-serif;
     display: grid;
