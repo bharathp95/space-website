@@ -149,7 +149,7 @@ header {
     transition: 0.5s ease-in-out;
 }
 
-.article-img:hover{
+.box:hover .article-img{
     transform: scale(1.2);
     transition-delay: .5ms;
 }
