@@ -130,6 +130,7 @@ header {
 .box:hover {
     transform: scale(1.1);
     transition: 0.3s;
+    transition: all 0.2s ease-in-out;
 }
 /* below is the article image styling */
 .article-img{
@@ -144,6 +145,7 @@ header {
 .article-img:hover{
     transform: scale(1.05);
     transition: 0.3s;
+    transition: all 0.2s ease-in-out;
 }
 .article-title {
     font-family: 'Secular One', sans-serif;
