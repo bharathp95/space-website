@@ -145,16 +145,14 @@ header {
 .article-img{
     height: 220px;
     width: 220px;
-    border-radius: 20px;
-    margin-top: 15px;
-    box-shadow: 0px 0px 10px 5px rgba(11, 11, 11, 0.64);
-    
+    transition: 0.5s ease-in-out;
+}
 
-}
 .article-img:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
+    transform: scale(1.2);
+    transition-delay: .5ms;
 }
+
 .article-title {
     font-family: 'Secular One', sans-serif;
     display: grid;
