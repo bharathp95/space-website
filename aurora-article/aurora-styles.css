@@ -19,11 +19,12 @@ body{
 }
 
 .main{
-    background-image: url("aurora-bg.jpg");
+    background-image: url("aurora-bg2.jpg");
     display: flex;
     flex-flow: column wrap;
     gap: 1rem;
-    padding: 20px;
+    padding: 50px;
+    border-radius: 20px;
  
 }
 
