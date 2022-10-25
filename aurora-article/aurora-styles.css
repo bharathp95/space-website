@@ -8,8 +8,9 @@ header {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     background-color: #000;
+
 }
 .logo {
     width: 150px;
@@ -86,6 +87,12 @@ body{
     
 }
 
+.auroraimg{
+    width: 20vw;
+    border-radius: 20px;
+    border: rgb(223, 223, 223) 5px solid;
+
+}
 .main{
     background-image: url("aurora-bg2.jpg");
     display: flex;
