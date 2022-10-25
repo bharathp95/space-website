@@ -1,8 +1,116 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
 body{
-    background-color: #000000;
-   
+    background-color: #1f1f1f;
+    min-height: 100vh;
+    background-image:linear-gradient(-45deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    padding: 20px;
+    margin: 30px;
+    
 }
+
+.main{
+    background-image: url("aurora-bg.jpg");
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    padding: 20px;
+ 
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+}
+
+.main-container {
+    background-color: hsla(0, 0%, 0%, 0.749);
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.div-heading{
+    color: aliceblue;
+    background-color: #1f1f1f;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    
+    
+}
+
+.div-heading {
+	/* background-image: linear-gradient(-45deg, #71fffd, #57c7ff, #57ff97, #57ff97); */
+    background-image:linear-gradient(-45deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: 300%;
+
+	-webkit-background-clip: text;
+    background-clip:text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 4s ease-in-out infinite;
+	-moz-animation: animated_text 4s ease-in-out infinite;
+	-webkit-animation: animated_text 4s ease-in-out infinite;
+}
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+.main-with-bg{
+    margin: 55px 55px 55px 55px;
+    overflow: hidden;
+     /* background-image: url("aurora-bg.jpg");  */
+    background-size: cover;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+
+    
+    
+}
+.div2, .div3, .div5, .div6 {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    border-radius: 10px;
+    padding-top: 50px;
+    padding: 50px;
+}
+
+.sun{
+    
+    margin-top: 3.125rem;
+    border-radius: 20px;
+    border: whitesmoke 5px solid;
+    float:left;
+    
+}   
+.sun-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.div6{
+    display:flex;
+    justify-content: center;
+    
+
+}
+.saturn{
+    width: 50vw;
+    border-radius: 20px;
+    border: whitesmoke 5px solid;
+    }
