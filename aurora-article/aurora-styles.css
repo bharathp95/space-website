@@ -92,6 +92,7 @@ body{
     flex-flow: column wrap;
     gap: 1rem;
     border-radius: 20px;
+    padding: 40px;
  
 }
 
