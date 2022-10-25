@@ -98,6 +98,7 @@ nav {
 
 .body {
     background-image: url("../img/black-hole-opening_3840x2160.jpg");
+    background-size: cover;
 }
 
 main{
