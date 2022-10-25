@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     color: white;
     background-image: var(--LG);
+
 }
 
 a {
@@ -109,17 +110,21 @@ main{
     padding:1rem;
     min-height: 100vh;
 }
+
 .bh-img{
     background-color: hsla(0, 0%, 0%, 0.5);
     padding: 10px;
     border-radius: 10px;
     display: grid;
     place-content: center;
-    gap:1rem
+    gap:1rem;
+    overflow: hidden;
 }
+
 .bh-img img {
     border-radius: 10px;
     box-shadow: var(--BS);
+    transition: 0.5s ease-in-out;
 }
 
 
@@ -168,17 +173,34 @@ p span {
 
 .card {
     padding: 10px;
-    background-color: hsla(0, 0%, 0%, 0.789);
+    background-color: hsla(0, 0%, 0%, 0.5);
+
     border-radius: 10px;
+}
+
+.card-fig{
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0.9px rgb(122, 43, 183);
+    overflow: hidden;
+    margin: 3%;
 }
 
 .card img {
+    display: block;
     width: 100%;
-    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.card p {
+    margin: 5%;
+}
+
+.card img:hover{
+    transform: scale(1.2);
+    transition-delay: .5ms;
 }
 
 @media screen and (min-width: 1024px) {
-    
     .logo {
         min-width: 175px;
         margin-left: 35px;
@@ -218,10 +240,16 @@ p span {
         background-color: rgba(0, 0, 0, 0);
         grid-area: mn;
         gap:o;
+        padding: 0;
     }
     .bh-img img{
         width: 100%;
 
+    }
+
+    .bh-img img:hover {
+        transform: scale(1.2);
+        transition-delay: .5ms;
     }
 
     .fact{
