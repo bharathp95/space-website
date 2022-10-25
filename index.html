@@ -16,7 +16,7 @@
             <ul class="nav-list">
                 <li class="nav-item1"><a href="#box">Concepts</a></li>
                 <li class="nav-item3"><a href="">About</a></li>
-                <li class="nav-item4"><a href="">Article</a></li>
+                <li class="nav-item4"><a href="#box">Article</a></li>
                 <li class="nav-item5"><a href="">Contact</a></li>
             </ul>
         </nav>
@@ -42,7 +42,7 @@
                 <h3 class="article-title">Learn about Aurora</h3>
                 <p class="article-sub-title">Blog | Article</p>
             </div>
-            <div class="box">
+            <div class="box" onclick="blackHole();">
                 <div class="img-frame">
                     <img class="article-img" src="img/black-hole.webp" alt="">
                 </div>
@@ -51,6 +51,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function blackHole() {
+            window.location.href = "/articles/blackHole.html";
+        }
+    </script>
 </body>
 
 </html>

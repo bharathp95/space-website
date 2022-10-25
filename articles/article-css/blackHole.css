@@ -87,6 +87,12 @@ nav {
     background-color: #4158D0;
     background-image: var(--LG);
     color: white;
+    transition: all 0.2s ease-in-out
+}
+
+.explore:hover {
+    box-shadow: 0 0 0 2px rgb(255, 255, 255);
+    transform: scale(1.05);
 }
 
 main{
