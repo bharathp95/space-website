@@ -181,6 +181,7 @@ p span {
     main {
         padding: 100px;
         gap: 2rem;
+        grid-template-columns: repeat(5, 1fr);
         grid-template-areas:
         "hd hd hd hd hd"
         "mn mn mn cn cn"
@@ -201,7 +202,6 @@ p span {
     }
     .bh-img img{
         width: 100%;
-        max-width: 400px;
 
     }
 
@@ -214,8 +214,6 @@ p span {
     .content{
         align-self:flex-start;
         grid-area: cn;
-        max-width: 40vw;
-        margin:auto;
     }
 
     .content p{
