@@ -9,6 +9,7 @@
 :root {
     --FF: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --LG: linear-gradient(56deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    --BC: hsla(0, 0%, 0%, 0.5);
     --BS: 0px 0px 5px 1px rgba(11, 11, 11, 0.64);
 }
 
@@ -160,9 +161,29 @@ h2 span {
 .content p {
     font-size:1.1rem;
 }
+
 p span {
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.img-parts {
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+}
+
+.img-parts figure {
+    padding: 2vw;
+    background-color: var(--BC);
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+.img-parts img {
+    width: 75vw;
+    height: auto;
+    border-radius: 10px;
 }
 
 .card-container {
