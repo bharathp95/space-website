@@ -82,23 +82,23 @@ header {
 
 }
 
-h2,.catchprase{
+h1,.catchprase{
     text-align: center;
     align-self: flex-end;
     font-family: 'Secular One', sans-serif;
-    font-size: 72px;
-    background: -webkit-linear-gradient(-45deg, #4158D0 0%, #C850C0 50%, #FFCC70 65%);
+    font-size: 82px;
+    background: -webkit-linear-gradient(-45deg, #ffffff 35%, #000000 50%, #fff0d4 65%);
     background-clip: text;
     background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animated_text 4s ease-in-out infinite;
-    -moz-animation: animated_text 4s ease-in-out infinite;
-    -webkit-animation: animated_text 4s ease-in-out infinite;
+    animation: animated_text 3.5s ease-in-out infinite;
+    -moz-animation: animated_text 3.5s ease-in-out infinite;
+    -webkit-animation: animated_text 3.5s ease-in-out infinite;
     font-family: 'Pacifico', cursive;
     font-weight: 400;
     margin: 0;
-    
+
 
 
 
@@ -117,14 +117,66 @@ h2,.catchprase{
         background-position: 0px 50%;
     }
 }
+
 .head{
     position: relative;
 }
 .catchprase{
     /* position: absolute; */
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Pacifico', cursive;
     font-weight: 400;
     color: rgb(136, 136, 136);
 
 }
+
+.main-container{
+    background-color: #000;
+    background-image: url("space-bg.jpg");
+    background-size: cover;
+}
+
+.cards{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+padding: 2rem;
+gap: 1.5rem;
+padding-top: 7.5rem;
+}
+
+
+.item1{
+    display: grid;
+    place-content: center;
+    border-radius: 20px;
+
+}
+figure{
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0;
+}
+.item1 img{
+    width: 100%;
+
+
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;    
+}
+
+.item1 img:hover{
+    transform: scale(1.1);
+}
+
+.item2 , .item3 , .item4{
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.588);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+
+
+
+
