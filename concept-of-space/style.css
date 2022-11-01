@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 55px 55px 55px 55px;
     color: white;
@@ -171,7 +178,7 @@ figure{
 
 .item2 , .item3 , .item4{
     font-size: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.588);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 2rem;
     border-radius: 20px;
 }

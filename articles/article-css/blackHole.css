@@ -8,7 +8,7 @@
 
 :root {
     --FF: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --LG: linear-gradient(56deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    --LG: linear-gradient(80deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     --BC: hsla(0, 0%, 0%, 0.5);
     --BS: 0px 0px 5px 1px rgba(11, 11, 11, 0.64);
 }
@@ -55,6 +55,7 @@ nav {
 
 .nav-item a {
     position: relative;
+    font-size: 1rem;
     color: white;
     background-color: black;
     color: rgb(136, 136, 136);
@@ -80,7 +81,7 @@ nav {
 }
 
 .explore {
-    margin: 2rem;
+    margin: 1.5rem;
     justify-self: right;
     padding: 5px 10px 10px 10px;
     border-radius: 20px;
@@ -222,7 +223,7 @@ p span {
 
 @media screen and (min-width: 1024px) {
     .logo {
-        min-width: 175px;
+        /* min-width: 175px; */
         margin-left: 35px;
     }
 
@@ -236,7 +237,7 @@ p span {
     .explore {
         font-size: 1.3rem;
         font-weight: 600;
-        margin-right: 70px;
+        margin-right: 60px;
     }
 
     main {
