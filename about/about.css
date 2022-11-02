@@ -81,12 +81,12 @@ header {
     transform: scale(1.05);
 }
 
-/* this holds the go-beyond text div (main div) */
+this holds the go-beyond text div (main div)
 
 
 
 body {
-    min-height: 100vh;
+    
 
 }
 
@@ -95,14 +95,19 @@ body {
     height: 100vh;
     border-radius: 0px 0px 20px 20px;
     display: grid;/* place-items: center; */
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 2fr 4fr;
     gap: 1rem;
+    justify-items: center;
+
    
 }
 
 .bharath{
-    width:12rem;
-}
-.item1{
+    width: 25rem;
     
+}
+.item1, .item2, .item3, .item4 {
+    justify-self: center;
+    display: grid;
+    column-gap: 1rem;
 }
