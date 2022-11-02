@@ -7,6 +7,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 55px 55px 55px 55px;
     color: white;
@@ -192,8 +196,9 @@ header {
 }
 
 @media screen and (min-width: 768px){
-    .box:last-child {
-        grid-column: 1 / 3;
+    .box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -202,13 +207,20 @@ header {
         font-size: 1rem;
     }
 
+    .main-container {
+        grid-template-rows: 2fr 2fr 6fr;
+    }
+
     .catchphrase {
         padding-top: 0;
     }
 
     .box-container {
-        display: flex;
-        justify-content: space-around;
-        margin: 0 1rem;
+        display: grid;
+        /* place-items: center; */
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5rem;
+        margin:1rem;
+        margin-bottom: 10rem;
     }
 }
