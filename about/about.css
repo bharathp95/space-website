@@ -82,18 +82,27 @@ header {
 }
 
 /* this holds the go-beyond text div (main div) */
-.main-container {
-    min-height: 100vh;
-    display: grid;
-    background-color: #000;
-    background-image: url("../img/earth.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 0 0 10px 10px;
-}
+
 
 
 body {
     min-height: 100vh;
+
+}
+
+.main-container {
+    background-color: #000;
+    height: 100vh;
+    border-radius: 0px 0px 20px 20px;
+    display: grid;/* place-items: center; */
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+   
+}
+
+.bharath{
+    width:12rem;
+}
+.item1{
     
 }
