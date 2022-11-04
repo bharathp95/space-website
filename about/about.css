@@ -178,6 +178,7 @@ header {
 .item1, .item2, .item3, .item4{
     background-color: rgba(0, 0, 0, 0.475);
     border-radius: 20px;
+    padding: 20px;
 
 }
 p{
