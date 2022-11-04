@@ -27,6 +27,7 @@ body{
   font-weight: 600;
   background: -webkit-linear-gradient(right, #cdcfcf, #000000, #c2e8eb, #9f01ea);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .container form{
