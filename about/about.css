@@ -83,28 +83,105 @@ header {
 
 /* this holds the go-beyond text div (main div) */
 
-
-
-
-
 .main-container {
     background-color: #000;
-    height: 100vh;
+    height: fit-content;
     border-radius: 0px 0px 20px 20px;
-    display: grid;/* place-items: center; */
-    grid-template-columns: 2fr 4fr;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
     justify-items: center;
+    padding-left: 4rem;
+   background-image: url("/img/earth.jpg");
+   background-size:cover ;
 
    
 }
 
+
+.catchp{
+    background-color: #000;
+
+
+}
+.catchphrase{
+    font-size: 3rem;
+    margin-left: 37rem;
+    padding-top: 1rem;
+    transition: all ease-in-out .3s;
+
+}
+.catchphrase:hover{
+    color: #FFCC70;
+    transform: scale(1.1);
+
+}
 .bharath{
-    width: 25rem;
+    border: white solid 4px;
+    margin-top: 40px;
+    margin-left: 90px; 
+    margin-bottom: 3rem; 
+    border-radius: 20px; 
+    transition: all ease-in-out .3s;
+}
+.bharath:hover{
+    opacity: 80%;
+    transform: scale(1.1);
+    border: #FFCC70 solid 8px;
+}
+.venky{
+    border: white solid 4px;
+    margin-left: 90px;
+    margin-bottom: 3rem;  
+    margin-top: 20px;
+    border-radius: 20px; 
+    transition: all ease-in-out .3s;
+
+}
+.venky:hover{
+    opacity: 80%;
+    transform: scale(1.1);
+    border: #FFCC70 solid 8px;
+}
+.prasanna{
+    border: white solid 4px;
+    margin-top: 40px;
+    border-radius: 20px; 
+    margin-left: 90px;
+    margin-bottom: 3rem;  
+    transition: all ease-in-out .3s;
+
+}
+.prasanna:hover{
+    opacity: 80%;
+    transform: scale(1.1);
+    border: #FFCC70 solid 8px;
+}
+.damodhar{
+    border: white solid 4px;
+    margin-left: 90px;    
+    margin-top: 20px;
+    border-radius: 20px; 
+    margin-bottom: 3rem;  
+    transition: all ease-in-out .3s;
     
+
 }
-.item1, .item2, .item3, .item4 {
-    justify-self: center;
-    display: grid;
-    column-gap: 1rem;
+.damodhar:hover{
+    transform: scale(1.1);
+    opacity: 80%;
+    border: #FFCC70 solid 8px;
+
+
 }
+
+.item1, .item2, .item3, .item4{
+    background-color: rgba(0, 0, 0, 0.475);
+    border-radius: 20px;
+
+}
+p{
+ font-size: 20px;    
+
+}
+
