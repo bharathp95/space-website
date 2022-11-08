@@ -16,7 +16,7 @@
 <body>
     <div class="main">
         <header>
-            <img class="logo" src="../img/SPACE.png" alt="space">
+            <img class="logo" onclick="home()"src="../img/SPACE.png" alt="space">
             <nav>
                 <ul class="nav-list">
                     <li class="nav-item1"><a href="../#box">Concepts</a></li>
@@ -84,6 +84,11 @@
         </div>
         <!-- ending of main div -->
     </div>
+    <script>
+        function home() {
+            window.location.href = "../index.html";
+        }
+    </script>
 </body>
 
 </html>
